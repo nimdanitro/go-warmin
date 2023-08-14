@@ -45,7 +45,7 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		ctx, cancel := context.WithCancel(cmd.Context())
-		logger, _ = zap.NewDevelopment()
+		logger, _ = zap.NewProduction()
 
 		mux := http.NewServeMux()
 		mux.HandleFunc("/callback", oauthCallbackHandler)
