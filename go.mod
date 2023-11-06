@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/abrander/garmin-connect v0.0.0-20221117211130-dc0681952026
 	github.com/dropbox/dropbox-sdk-go-unofficial/v6 v6.0.5
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.16.0
 	go.uber.org/zap v1.25.0
 	golang.org/x/oauth2 v0.11.0
